@@ -32,8 +32,8 @@ const HomeScreen = () => {
           <UserIcon size={35} color="#00CCBB" />
         </View>
         {/* Search Bar */}
-        <View className="flex-row items-center space-x-2 pb-2 mx-4 px-4 rounded">
-          <View className="flex-row flex-1 space-x-2 bg-gray-200 p-3 rounded-md">
+        <View className="flex-row items-center space-x-2 pb-2 mx-4 px-4 rounded-md">
+          <View className="flex-row flex-1 space-x-2 bg-gray-200 p-3">
             <SearchIcon color="gray" size={20}/>
             <TextInput
               placeholder="Restaurants and cuisines"
