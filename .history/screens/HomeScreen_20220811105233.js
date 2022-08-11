@@ -46,19 +46,19 @@ const HomeScreen = () => {
       <ScrollView className="bg-gray-100">
         <Categories />
         <FeaturedRow
-          id="123"
           title="Featured"
           description="Paid placements from our partners"
+          featuredCategory="featured"
         />
         <FeaturedRow
-          id="1234"
-          title="Tasty Discounts"
-          description="Everyone's been using these juicy discounts!"
+          title="Featured"
+          description="Paid placements from our partners"
+          featuredCategory="featured"
         />
         <FeaturedRow
-          id="12345"
-          title="Offers near you!"
-          description="Why not support your local restaurant tonight!"
+          title="Featured"
+          description="Paid placements from our partners"
+          featuredCategory="featured"
         />
       </ScrollView>
     </SafeAreaView>

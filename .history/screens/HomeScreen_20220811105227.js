@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 import { Image, SafeAreaView, ScrollView, Text, TextInput, View } from 'react-native'
 import { UserIcon, ChevronDownIcon, SearchIcon, AdjustmentsIcon, } from 'react-native-heroicons/outline'
 import Categories from '../components/Categories'
-import FeaturedRow from '../components/FeaturedRow'
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -46,19 +45,19 @@ const HomeScreen = () => {
       <ScrollView className="bg-gray-100">
         <Categories />
         <FeaturedRow
-          id="123"
           title="Featured"
           description="Paid placements from our partners"
+          featuredCategory="featured"
         />
         <FeaturedRow
-          id="1234"
-          title="Tasty Discounts"
-          description="Everyone's been using these juicy discounts!"
+          title="Featured"
+          description="Paid placements from our partners"
+          featuredCategory="featured"
         />
         <FeaturedRow
-          id="12345"
-          title="Offers near you!"
-          description="Why not support your local restaurant tonight!"
+          title="Featured"
+          description="Paid placements from our partners"
+          featuredCategory="featured"
         />
       </ScrollView>
     </SafeAreaView>

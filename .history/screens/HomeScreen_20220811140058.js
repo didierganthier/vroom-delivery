@@ -51,12 +51,12 @@ const HomeScreen = () => {
           description="Paid placements from our partners"
         />
         <FeaturedRow
-          id="1234"
+        id="1234"
           title="Tasty Discounts"
           description="Everyone's been using these juicy discounts!"
         />
         <FeaturedRow
-          id="12345"
+        id="12345"
           title="Offers near you!"
           description="Why not support your local restaurant tonight!"
         />
